@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="EAA97C73A1FE82FACC91AA2B3778CEC0" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.0.0.49154" Version="5.0.0.49154" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="VeriStand UI Manager Core Components" Name="http://www.ni.com/UIManager.Design" OldestCompatibleVersion="4.0.0.1" Version="4.0.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="VeriStand UI Manager Supporting Documents" Name="http://www.ni.com/VeriStand.Screen.SupportingDocuments" OldestCompatibleVersion="4.0.0.1" Version="4.0.0.49153" />
+		<ApplicationVersionInfo Build="5.0.1.3430" Name="VeriStand.UIManager" Version="5.0.1.3430" />
+	</SourceModelFeatureSet>
+	<LoggingSpecification xmlns="http://www.ni.com/VeriStand.Screen.SupportingDocuments">
+		<LoggingConfigurationModel BaseLogFilePath="[string]Logs\" Id="1" Left="[float]0" Top="[float]0">
+			<LogChannelModel ChannelName="[string]AI0" ChannelPath="[string]Targets/Controller/Hardware/Chassis/DAQ/cDAQ1Mod1/Analog Input/AI0" Group="[string]temp" Id="2" xmlns="http://www.ni.com/UIManager.Design" />
+			<LogChannelModel ChannelName="[string]AI1" ChannelPath="[string]Targets/Controller/Hardware/Chassis/DAQ/cDAQ1Mod1/Analog Input/AI1" Group="[string]temp" Id="3" xmlns="http://www.ni.com/UIManager.Design" />
+			<LogChannelModel ChannelName="[string]AI2" ChannelPath="[string]Targets/Controller/Hardware/Chassis/DAQ/cDAQ1Mod1/Analog Input/AI2" Group="[string]temp" Id="4" xmlns="http://www.ni.com/UIManager.Design" />
+			<LogChannelModel ChannelName="[string]AI3" ChannelPath="[string]Targets/Controller/Hardware/Chassis/DAQ/cDAQ1Mod1/Analog Input/AI3" Group="[string]temp" Id="5" xmlns="http://www.ni.com/UIManager.Design" />
+			<LogChannelModel ChannelName="[string]AI4" ChannelPath="[string]Targets/Controller/Hardware/Chassis/DAQ/cDAQ1Mod1/Analog Input/AI4" Group="[string]temp" Id="6" xmlns="http://www.ni.com/UIManager.Design" />
+			<LogChannelModel ChannelName="[string]AI5" ChannelPath="[string]Targets/Controller/Hardware/Chassis/DAQ/cDAQ1Mod1/Analog Input/AI5" Group="[string]temp" Id="7" xmlns="http://www.ni.com/UIManager.Design" />
+			<LogChannelModel ChannelName="[string]AI6" ChannelPath="[string]Targets/Controller/Hardware/Chassis/DAQ/cDAQ1Mod1/Analog Input/AI6" Group="[string]temp" Id="8" xmlns="http://www.ni.com/UIManager.Design" />
+			<LogChannelModel ChannelName="[string]AI7" ChannelPath="[string]Targets/Controller/Hardware/Chassis/DAQ/cDAQ1Mod1/Analog Input/AI7" Group="[string]temp" Id="9" xmlns="http://www.ni.com/UIManager.Design" />
+			<LogChannelModel ChannelName="[string]AI8" ChannelPath="[string]Targets/Controller/Hardware/Chassis/DAQ/cDAQ1Mod1/Analog Input/AI8" Group="[string]temp" Id="10" xmlns="http://www.ni.com/UIManager.Design" />
+			<LogChannelModel ChannelName="[string]AI9" ChannelPath="[string]Targets/Controller/Hardware/Chassis/DAQ/cDAQ1Mod1/Analog Input/AI9" Group="[string]temp" Id="11" xmlns="http://www.ni.com/UIManager.Design" />
+			<LogChannelModel ChannelName="[string]AI10" ChannelPath="[string]Targets/Controller/Hardware/Chassis/DAQ/cDAQ1Mod1/Analog Input/AI10" Group="[string]temp" Id="12" xmlns="http://www.ni.com/UIManager.Design" />
+			<LogChannelModel ChannelName="[string]AI11" ChannelPath="[string]Targets/Controller/Hardware/Chassis/DAQ/cDAQ1Mod1/Analog Input/AI11" Group="[string]temp" Id="13" xmlns="http://www.ni.com/UIManager.Design" />
+			<LogChannelModel ChannelName="[string]AI12" ChannelPath="[string]Targets/Controller/Hardware/Chassis/DAQ/cDAQ1Mod1/Analog Input/AI12" Group="[string]temp" Id="14" xmlns="http://www.ni.com/UIManager.Design" />
+			<LogChannelModel ChannelName="[string]AI13" ChannelPath="[string]Targets/Controller/Hardware/Chassis/DAQ/cDAQ1Mod1/Analog Input/AI13" Group="[string]temp" Id="15" xmlns="http://www.ni.com/UIManager.Design" />
+			<LogChannelModel ChannelName="[string]AI14" ChannelPath="[string]Targets/Controller/Hardware/Chassis/DAQ/cDAQ1Mod1/Analog Input/AI14" Group="[string]temp" Id="16" xmlns="http://www.ni.com/UIManager.Design" />
+			<LogChannelModel ChannelName="[string]AI15" ChannelPath="[string]Targets/Controller/Hardware/Chassis/DAQ/cDAQ1Mod1/Analog Input/AI15" Group="[string]temp" Id="17" xmlns="http://www.ni.com/UIManager.Design" />
+		</LoggingConfigurationModel>
+	</LoggingSpecification>
+</SourceFile>

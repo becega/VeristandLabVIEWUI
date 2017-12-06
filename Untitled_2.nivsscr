@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="708B3391A30A53AFC6C1697248345DAA" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="Configuration Based Software Core" Name="http://www.ni.com/ConfigurationBasedSoftware.Core" OldestCompatibleVersion="4.8.0.1" Version="4.8.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.0.0.1" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="VeriStand UI Manager Controls" Name="http://www.ni.com/Controls.VeriStand.Design" OldestCompatibleVersion="4.8.0.1" Version="4.8.0.49155" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="4.8.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.0.0.49154" Version="5.0.0.49154" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="VeriStand UI Manager Screen" Name="http://www.ni.com/VeriStand.UIManager.ScreenModel" OldestCompatibleVersion="4.8.0.2" Version="4.8.0.49152" />
+		<ApplicationVersionInfo Build="5.0.1.3430" Name="VeriStand.UIManager" Version="5.0.1.3430" />
+	</SourceModelFeatureSet>
+	<Screen Id="1" Version="5.0.1.0" xmlns="http://www.ni.com/VeriStand.UIManager.ScreenModel">
+		<ScreenSurface Height="[float]1600" Id="2" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core">
+			<VeriStandChart BaseName="[string]Chart" Height="[float]400" HistoryLength="[uint]1000" Id="3" Label="[UIModel]13" Left="[float]136" PreferIndexData="[bool]False" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" TabIndex="[int]0" Top="[float]49" Width="[float]600" xmlns="http://www.ni.com/Controls.VeriStand.Design">
+				<HmiChartAxis Adjuster="[RangeAdjuster]ContinuousChart" Id="4" Label="[string]X" MajorDivisions="[UIModel]7" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 20, System.Double" ValueType="[Type]Double" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core">
+					<RangeLabeledDivisions Id="7" LabelPresenter="[string]LVTime:h:mm:ss.fff tt&#xA;MM/dd/yyyy" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				</HmiChartAxis>
+				<HmiChartAxis Adjuster="[RangeAdjuster]FitVisibleExactly" HighLimit="[UIModel]217" Id="5" Label="[string]Y" LowLimit="[UIModel]218" MajorDivisions="[UIModel]8" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core">
+					<RangeLabeledDivisions Id="8" LabelPresenter="[string]LVRelativeSeconds:G6" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<RangeLimit Enabled="[bool]True" Fill="[SMSolidColorBrush]#ffee1c24" Id="217" Opacity="[double]0.4" Stroke="[SMSolidColorBrush]#ffee1c24" Value="[double]30" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<RangeLimit Enabled="[bool]False" Fill="[SMSolidColorBrush]#ff00a64e" Id="218" Opacity="[double]0.4" Stroke="[SMSolidColorBrush]#ff00a64e" Value="[double]1" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				</HmiChartAxis>
+				<VeriStandChartPlot Channel="[string]Targets/Controller/Hardware/cDAQ3/DAQ/cDAQ3Mod7/Analog Input/AI0" HorizontalScale="[UIModel]4" Id="164" IsDefaultPlot="[bool]False" Label="[string]AI0" VerticalScale="[UIModel]5" />
+			</VeriStandChart>
+			<HmiChartPlotLegend Graph="[UIModel]3" Height="[float]28" Id="9" Left="[float]743" TabIndex="[int]1" Top="[float]49" />
+			<HmiChartCursorLegend Graph="[UIModel]3" Height="[float]80" Id="10" Left="[float]141" MinHeight="[float]80" TabIndex="[int]2" Top="[float]478" Visible="[bool]False" Width="[float]316" />
+			<HmiChartScaleLegend Graph="[UIModel]3" Height="[float]52" Id="11" Left="[float]661" MinHeight="[float]50" TabIndex="[int]3" Top="[float]456" Visible="[bool]False" />
+			<GraphTools Graph="[UIModel]3" Id="12" Left="[float]141" TabIndex="[int]4" Top="[float]456" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="13" LabelOwner="[UIModel]3" Left="[float]136" TabIndex="[int]5" Text="[string]Chart" Top="[float]29" Width="[float]29" xmlns="http://www.ni.com/PanelCommon" />
+			<VeriStandChart BaseName="[string]Chart" Height="[float]400" Id="165" Label="[UIModel]175" Left="[float]156" PreferIndexData="[bool]False" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" TabIndex="[int]6" Top="[float]426" Width="[float]600" xmlns="http://www.ni.com/Controls.VeriStand.Design">
+				<HmiChartAxis Adjuster="[RangeAdjuster]ContinuousChart" Id="166" Label="[string]X" MajorDivisions="[UIModel]169" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core">
+					<RangeLabeledDivisions Id="169" LabelPresenter="[string]LVTime:h:mm:ss.fff tt&#xA;MM/dd/yyyy" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				</HmiChartAxis>
+				<HmiChartAxis Adjuster="[RangeAdjuster]FitVisibleExactly" Id="167" Label="[string]Y" MajorDivisions="[UIModel]170" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core">
+					<RangeLabeledDivisions Id="170" LabelPresenter="[string]LVRelativeSeconds:G6" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				</HmiChartAxis>
+				<VeriStandChartPlot Channel="[string]Targets/Controller/Hardware/cDAQ3/DAQ/cDAQ3Mod6/Analog Input/AI0" HorizontalScale="[UIModel]166" Id="176" IsDefaultPlot="[bool]False" Label="[string]AI0" VerticalScale="[UIModel]167" />
+			</VeriStandChart>
+			<HmiChartPlotLegend Graph="[UIModel]165" Height="[float]28" Id="171" Left="[float]763" TabIndex="[int]7" Top="[float]426" />
+			<HmiChartCursorLegend Graph="[UIModel]165" Height="[float]80" Id="172" Left="[float]161" MinHeight="[float]80" TabIndex="[int]8" Top="[float]855" Visible="[bool]False" Width="[float]316" />
+			<HmiChartScaleLegend Graph="[UIModel]165" Height="[float]52" Id="173" Left="[float]681" MinHeight="[float]50" TabIndex="[int]9" Top="[float]833" Visible="[bool]False" />
+			<GraphTools Graph="[UIModel]165" Id="174" Left="[float]161" TabIndex="[int]10" Top="[float]833" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="175" LabelOwner="[UIModel]165" Left="[float]156" TabIndex="[int]11" Text="[string]Chart_2" Top="[float]406" Width="[float]41" xmlns="http://www.ni.com/PanelCommon" />
+			<VeriStandChart BaseName="[string]Chart" Height="[float]400" Id="177" IsAntiAliased="[bool]False" Label="[UIModel]187" Left="[float]808" MetadataAlwaysOverridesPlotNames="[bool]False" PlotAreaMargin="[SMThickness]NaN,NaN,NaN,NaN" PreferIndexData="[bool]False" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" TabIndex="[int]12" Top="[float]54" Width="[float]600" xmlns="http://www.ni.com/Controls.VeriStand.Design">
+				<HmiChartAxis Adjuster="[RangeAdjuster]FitVisibleExactly" HighLimit="[UIModel]205" Id="179" Label="[string]Y" LowLimit="[UIModel]206" MajorDivisions="[UIModel]182" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core">
+					<RangeLabeledDivisions Id="182" LabelPresenter="[string]LVRelativeSeconds:G6" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<RangeLimit Enabled="[bool]True" Fill="[SMSolidColorBrush]#ffee1c24" Id="205" Opacity="[double]0.4" Stroke="[SMSolidColorBrush]#ffee1c24" Value="[double]28" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<RangeLimit Enabled="[bool]False" Fill="[SMSolidColorBrush]#ff00a64e" Id="206" Opacity="[double]0.4" Stroke="[SMSolidColorBrush]#ff00a64e" Value="[double]1" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				</HmiChartAxis>
+				<VeriStandChartPlot Channel="[string]Targets/Controller/Custom Devices/Waveform-Processing-Custom-Device/cDAQ3Mod2//Analog Input//AI0/AI0 Single-point" HorizontalScale="[UIModel]215" Id="192" IsDefaultPlot="[bool]False" Label="[string]AI0 Single-point" VerticalScale="[UIModel]179" />
+				<PlotRenderer Id="207" LineStroke="[SMSolidColorBrush]#ff962428" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<PlotRenderer Id="208" LineStroke="[SMSolidColorBrush]#ff008ee4" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<PlotRenderer Id="209" LineStroke="[SMSolidColorBrush]#ffe2b683" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<PlotRenderer Id="210" LineStroke="[SMSolidColorBrush]#ffb7ac1f" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<PlotRenderer Id="211" LineStroke="[SMSolidColorBrush]#ffaedcef" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<PlotRenderer Id="212" LineStroke="[SMSolidColorBrush]#ffa08bb0" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<PlotRenderer Id="213" LineStroke="[SMSolidColorBrush]#ff7f7f7f" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<PlotRenderer Id="214" LineStroke="[SMSolidColorBrush]#ff91685c" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<HmiChartAxis Adjuster="[RangeAdjuster]ContinuousChart" Id="215" Label="[string]Time 1" MajorDivisions="[UIModel]216" Orientation="[SMOrientation]Horizontal" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core">
+					<RangeLabeledDivisions Id="216" LabelPresenter="[string]LVTime:h:mm:ss.fff tt&#xA;MM/dd/yyyy" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				</HmiChartAxis>
+			</VeriStandChart>
+			<HmiChartPlotLegend Graph="[UIModel]177" Height="[float]28" Id="183" Left="[float]1415" TabIndex="[int]13" Top="[float]54" />
+			<HmiChartCursorLegend Graph="[UIModel]177" Height="[float]80" Id="184" Left="[float]813" MinHeight="[float]80" TabIndex="[int]14" Top="[float]483" Visible="[bool]False" Width="[float]316" />
+			<HmiChartScaleLegend Graph="[UIModel]177" Height="[float]54" Id="185" Left="[float]1333" MinHeight="[float]50" TabIndex="[int]15" Top="[float]461" Visible="[bool]False" />
+			<GraphTools Graph="[UIModel]177" Id="186" Left="[float]813" TabIndex="[int]16" Top="[float]461" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="187" LabelOwner="[UIModel]177" Left="[float]808" TabIndex="[int]17" Text="[string]Chart_3" Top="[float]34" Width="[float]41" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelTimeStampTextBox Channel="[string]Targets/Controller/System Channels/Absolute Time" DisplayFormat="[TimeStampTextBoxDisplayFormats]Short" Height="[float]24" Id="199" InteractionMode="[TimeStampTextBoxInteractionModes]ReadOnly" Label="[UIModel]200" Left="[float]1032" Maximum="[PrecisionDateTime]9999-12-31T17:59:59.998999999999999999979183318288278314867056906223297119140625Z" MinHeight="[float]24" MinWidth="[float]40" Minimum="[PrecisionDateTime]1900-01-01T06:00:00.0Z" TabIndex="[int]18" Top="[float]496" ValueType="[Type]Timestamp" Width="[float]70" />
+			<Label Height="[float]16" Id="200" LabelOwner="[UIModel]199" Left="[float]1032" TabIndex="[int]19" Text="[string]Absolute Time" Top="[float]476" Width="[float]77" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelTimeStampTextBox Channel="[string]Targets/Controller/System Channels/System Time" DisplayFormat="[TimeStampTextBoxDisplayFormats]Short" Height="[float]24" Id="201" InteractionMode="[TimeStampTextBoxInteractionModes]ReadOnly" Label="[UIModel]202" Left="[float]897" Maximum="[PrecisionDateTime]9999-12-31T17:59:59.998999999999999999979183318288278314867056906223297119140625Z" MinHeight="[float]24" MinWidth="[float]40" Minimum="[PrecisionDateTime]1900-01-01T06:00:00.0Z" TabIndex="[int]20" Top="[float]496" ValueType="[Type]Timestamp" Width="[float]70" />
+			<Label Height="[float]16" Id="202" LabelOwner="[UIModel]201" Left="[float]897" TabIndex="[int]21" Text="[string]System Time" Top="[float]476" Width="[float]67" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelNumericText Channel="[string]Targets/Controller/Custom Devices/Waveform-Processing-Custom-Device/cDAQ3Mod2//Analog Input//AI0/AI0 Single-point" Height="[float]24" Id="219" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" IsReadOnly="[bool]True" Label="[UIModel]220" Left="[float]902" MinHeight="[float]24" TabIndex="[int]23" Top="[float]564" UnitAnnotation="[string]" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" />
+			<Label Height="[float]16" Id="220" LabelOwner="[UIModel]219" Left="[float]902" TabIndex="[int]23" Text="[string]AI0 Single-point" Top="[float]544" Width="[float]86" xmlns="http://www.ni.com/PanelCommon" />
+		</ScreenSurface>
+	</Screen>
+</SourceFile>

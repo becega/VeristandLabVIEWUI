@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="CD8925647C53E9B59C13084253C791FC" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.0.0.49154" Version="5.0.0.49154" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="VeriStand UI Manager Core Components" Name="http://www.ni.com/UIManager.Design" OldestCompatibleVersion="4.0.0.1" Version="4.0.0.49153" />
+		<ApplicationVersionInfo Build="5.0.1.3430" Name="VeriStand.UIManager" Version="5.0.1.3430" />
+	</SourceModelFeatureSet>
+	<Project xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="1" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="2" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,NationalInstruments.ProjectExplorer.Modeling.ProjectInformationIcon" Id="11" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectInformationIcon" Name="ProjectInformationIcon">
+				<ProjectInformationIcon>
+					<p.StoragePath>"Documentation\\screen.png"</p.StoragePath>
+				</ProjectInformationIcon>
+			</EmbeddedDefinitionReference>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Bindings="Envoy,DefinitionReference,DefaultTarget,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="4" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
+			<DefaultTarget />
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,GatewayDefinition,EmbeddedReference" Id="5" ModelDefinitionType="GatewayDefinition" Name="Gateway" Reparentable="False">
+				<GatewayDefinition IPAddress="localhost" xmlns="http://www.ni.com/UIManager.Design" />
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,SdfFilePath,EmbeddedReference" Id="6" ModelDefinitionType="SdfFilePath" Name="SdfPath" Reparentable="False">
+				<SdfFilePath SdfPath="Demo.nivssdf" xmlns="http://www.ni.com/UIManager.Design" />
+			</EmbeddedDefinitionReference>
+			<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel,SourceFileReference" Id="13" ModelDefinitionType="NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel" Name="Demo\.nivsscr" StoragePath="Demo.nivsscr" />
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType,ProjectItemDragDropDefaultService,EmbeddedReference" Id="14" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="Demo\.nivssdf">
+				<ExternalFile>
+					<p.StoragePath>Demo.nivssdf</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel,FileReference,SourceFileReference" Id="15" ModelDefinitionType="NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel" Name="Untitled\.nivsscr" StoragePath="Untitled.nivsscr" />
+			<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.VeriStand.UIManager.Screen.SupportingDocuments.SourceModel.LoggingSpecification,FileReference,SourceFileReference" Id="16" ModelDefinitionType="NationalInstruments.VeriStand.UIManager.Screen.SupportingDocuments.SourceModel.LoggingSpecification" Name="Logging\ specification\.nivslspec" StoragePath="Logging specification.nivslspec" />
+			<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel,FileReference,SourceFileReference" Id="17" ModelDefinitionType="NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel" Name="Untitled_2\.nivsscr" StoragePath="Untitled_2.nivsscr" />
+			<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel,FileReference,SourceFileReference" Id="18" ModelDefinitionType="NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel" Name="Untitled_3\.nivsscr" StoragePath="Untitled_3.nivsscr" />
+		</NameScopingEnvoy>
+	</Project>
+	<ProjectInformation CustomTitle="Demo" ProjectIconFilename="screen.png" xmlns="http://www.ni.com/PlatformFramework">
+		<p.Description></p.Description>
+	</ProjectInformation>
+</SourceFile>

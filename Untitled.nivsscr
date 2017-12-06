@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="D79A3748E3A57B0CB35F5A373B3533F2" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="Configuration Based Software Core" Name="http://www.ni.com/ConfigurationBasedSoftware.Core" OldestCompatibleVersion="4.8.0.1" Version="4.8.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.0.0.1" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="VeriStand UI Manager Controls" Name="http://www.ni.com/Controls.VeriStand.Design" OldestCompatibleVersion="4.8.0.1" Version="4.8.0.49155" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="4.8.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.0.0.49154" Version="5.0.0.49154" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="VeriStand UI Manager Screen" Name="http://www.ni.com/VeriStand.UIManager.ScreenModel" OldestCompatibleVersion="4.8.0.2" Version="4.8.0.49152" />
+		<ApplicationVersionInfo Build="5.0.1.3430" Name="VeriStand.UIManager" Version="5.0.1.3430" />
+	</SourceModelFeatureSet>
+	<Screen Id="1" Version="5.0.1.0" xmlns="http://www.ni.com/VeriStand.UIManager.ScreenModel">
+		<ScreenSurface Height="[float]1600" Id="2" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core">
+			<VeriStandChart BaseName="[string]Chart" Height="[float]400" Id="3" Label="[UIModel]13" Left="[float]113" PreferIndexData="[bool]False" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" TabIndex="[int]1" Top="[float]139" Width="[float]600" xmlns="http://www.ni.com/Controls.VeriStand.Design">
+				<HmiChartAxis Adjuster="[RangeAdjuster]ContinuousChart" Id="4" Label="[string]X" MajorDivisions="[UIModel]7" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core">
+					<RangeLabeledDivisions Id="7" LabelPresenter="[string]LVTime:h:mm:ss.fff tt&#xA;MM/dd/yyyy" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				</HmiChartAxis>
+				<HmiChartAxis Adjuster="[RangeAdjuster]FitVisibleExactly" Id="5" Label="[string]Y" MajorDivisions="[UIModel]8" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core">
+					<RangeLabeledDivisions Id="8" LabelPresenter="[string]LVRelativeSeconds:G6" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				</HmiChartAxis>
+				<VeriStandChartPlot HorizontalScale="[UIModel]4" Id="6" IsDefaultPlot="[bool]True" Label="[string]Plot" VerticalScale="[UIModel]5" />
+			</VeriStandChart>
+			<HmiChartPlotLegend Graph="[UIModel]3" Height="[float]28" Id="9" Left="[float]720" TabIndex="[int]2" Top="[float]139" />
+			<HmiChartCursorLegend Graph="[UIModel]3" Height="[float]80" Id="10" Left="[float]118" MinHeight="[float]80" TabIndex="[int]3" Top="[float]568" Visible="[bool]False" Width="[float]316" />
+			<HmiChartScaleLegend Graph="[UIModel]3" Height="[float]52" Id="11" Left="[float]638" MinHeight="[float]50" TabIndex="[int]4" Top="[float]546" Visible="[bool]False" />
+			<GraphTools Graph="[UIModel]3" Id="12" Left="[float]118" TabIndex="[int]5" Top="[float]546" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="13" LabelOwner="[UIModel]3" Left="[float]113" TabIndex="[int]5" Text="[string]Chart" Top="[float]119" Width="[float]29" xmlns="http://www.ni.com/PanelCommon" />
+		</ScreenSurface>
+	</Screen>
+</SourceFile>
