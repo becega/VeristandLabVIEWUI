@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="CD8925647C53E9B59C13084253C791FC" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="457F29C5598E257A19DF08AB23558374" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.0.0.49154" Version="5.0.0.49154" />
 		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="VeriStand UI Manager Core Components" Name="http://www.ni.com/UIManager.Design" OldestCompatibleVersion="4.0.0.1" Version="4.0.0.49153" />
@@ -33,6 +33,7 @@
 			<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.VeriStand.UIManager.Screen.SupportingDocuments.SourceModel.LoggingSpecification,FileReference,SourceFileReference" Id="16" ModelDefinitionType="NationalInstruments.VeriStand.UIManager.Screen.SupportingDocuments.SourceModel.LoggingSpecification" Name="Logging\ specification\.nivslspec" StoragePath="Logging specification.nivslspec" />
 			<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel,FileReference,SourceFileReference" Id="17" ModelDefinitionType="NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel" Name="Untitled_2\.nivsscr" StoragePath="Untitled_2.nivsscr" />
 			<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel,FileReference,SourceFileReference" Id="18" ModelDefinitionType="NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel" Name="Untitled_3\.nivsscr" StoragePath="Untitled_3.nivsscr" />
+			<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.VeriStand.UIManager.Screen.SupportingDocuments.SourceModel.LoggingSpecification,FileReference,SourceFileReference" Id="19" ModelDefinitionType="NationalInstruments.VeriStand.UIManager.Screen.SupportingDocuments.SourceModel.LoggingSpecification" Name="Logging\ specification_2\.nivslspec" StoragePath="Logging specification_2.nivslspec" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation CustomTitle="Demo" ProjectIconFilename="screen.png" xmlns="http://www.ni.com/PlatformFramework">

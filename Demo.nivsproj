@@ -192,56 +192,38 @@
 			<Description />
 			<Properties />
 			<Errors />
-			<Section Name="Demo.nivssdf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="Demo.nivssdf (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\Benjamin\Desktop\demo\VeriStand\Demo\Demo.nivssdf</String>
+						<String>C:\Users\Benjamin\Documents\GitHub\VeristandLabVIEWUI\Demo.nivssdf</String>
 					</Property>
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="Demo.nivsscreen" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="Demo.nivsscreen (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\Benjamin\Desktop\demo\VeriStand\Demo\Demo.nivsscreen</String>
+						<String>C:\Users\Benjamin\Documents\GitHub\VeristandLabVIEWUI\Demo.nivsscreen</String>
 					</Property>
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="Demo.nivsprj" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="Demo.nivsprj (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\Benjamin\Desktop\demo\VeriStand\Demo\Demo.nivsprj</String>
+						<String>C:\Users\Benjamin\Documents\GitHub\VeristandLabVIEWUI\Demo.nivsprj</String>
 					</Property>
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="Demo.nivscf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="Demo.nivscf (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\Benjamin\Desktop\demo\VeriStand\Demo\Demo.nivscf</String>
-					</Property>
-				</Properties>
-				<Errors />
-			</Section>
-			<Section Name="Prediction.lvmodel" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
-				<Description />
-				<Properties>
-					<Property Name="Path">
-						<String>C:\Users\Benjamin\Desktop\demo\VeriStand\Demo\Prediction.lvmodel</String>
-					</Property>
-				</Properties>
-				<Errors />
-			</Section>
-			<Section Name="Waveform-Processing-Custom-Device Engine Windows.llb" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
-				<Description />
-				<Properties>
-					<Property Name="Path">
-						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2017\Custom Devices\Waveform-Processing-Custom-Device\Windows\Waveform-Processing-Custom-Device Engine Windows.llb</String>
+						<String>C:\Users\Benjamin\Documents\GitHub\VeristandLabVIEWUI\Demo.nivscf</String>
 					</Property>
 				</Properties>
 				<Errors />
